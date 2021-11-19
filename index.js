@@ -19,7 +19,7 @@ async function robo(){
   testando = lista[QualCEP]
   await page.type('[name="endereco"]', testando)
   await page.click('[name="btn_pesquisar"]')
-  console.log(`CEP: ${testando},${resultado}`)
+  console.log(`CEP: ${testando},${resultado}`)//saída do resultado no terminal
     //await browser.close();
   }
 robo();
