@@ -2,7 +2,7 @@
 const puppeteer = require('puppeteer');
 const readlineSync = require('readline-sync');
 
-console.log('Bem vindo ao Bot! Após escolher o CEP abra rapidamente o navegador WEB');
+console.log('Bem vindo ao Bot🤖🌎! Após escolher o CEP abra rapidamente o navegador WEB');
 
 async function robo(){
   const browser = await puppeteer.launch({headless: false});
